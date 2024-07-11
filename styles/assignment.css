@@ -1,0 +1,107 @@
+/*font styles*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+body{
+    font-family: "Poppins", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* banner styles*/
+.banner-content{
+    width: 1440px;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/Hero-bg.png');
+
+}
+.banner text{
+    width: 998px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.banner-text button{
+    width: 244px;
+    height: 65px;
+    margin-left: 500px;
+    background-color: black;
+    color: white;
+
+}
+/* header */
+.banner-profile-pic{
+    width: 240.28px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+/* main */
+.main head{
+    width: 852px;
+    height: 113px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 946px;
+    height: 1173px;
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.child-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-pic-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspire{
+    width: 1140px;
+    height: 745px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.inspire-title{
+    width: 882px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parent-card{
+    height: 299px;
+    width: 364px;
+    display: flex;
+    gap: 0px;
+}
+.card-one{
+    background-color: palegoldenrod;
+}
+.card-two{
+    background-color: aquamarine;
+}
+.card-three{
+    background-color: papayawhip;
+}
